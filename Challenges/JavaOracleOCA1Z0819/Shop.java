@@ -6,8 +6,12 @@ public class Shop {
         System.out.println("Comenrtario dentro de main");
         System.out.println("Valor introducido: " + args[0]);
         System.out.println("Valor 2 introducido: " + args[1]);
+        Example("David", "Alejandro", "Vazquez", "Gonzalez");
     }
 
+    private static void Example(String... args) {
+        System.out.println(args[0] + " " + args[1]);
+    }
 }
 
 /**
@@ -20,4 +24,7 @@ public class Shop {
  * 
  * ejemplo, compilas con javac y ejecutas con java, ej: $ java
  * Challenges/JavaOracleOCA1Z0819/Shop David
+ * 
+ * Cuando compilas, si el archivo contiene mas de una classe, este generara un
+ * archivo tipo .class por cada clase dentro del archivo.
  */
