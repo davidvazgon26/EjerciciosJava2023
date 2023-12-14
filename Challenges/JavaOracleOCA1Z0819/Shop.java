@@ -16,6 +16,8 @@ public class Shop {
 
 /**
  * Para correr el codigo en VSC recuerda correrlo con el Run que aparece dentro
+ * (solo en esta clase hay que compilar y correr desde consola para paso de
+ * parametros)
  * del codigo, en este caso arriba del main\
  * 
  * 
@@ -25,6 +27,6 @@ public class Shop {
  * ejemplo, compilas con javac y ejecutas con java, ej: $ java
  * Challenges/JavaOracleOCA1Z0819/Shop David
  * 
- * Cuando compilas, si el archivo contiene mas de una classe, este generara un
+ * Cuando compilas, si el archivo contiene mas de una clase, este generara un
  * archivo tipo .class por cada clase dentro del archivo.
  */

@@ -11,3 +11,10 @@ public class MetodoStatic {
         System.out.println(random.nextInt(10));
     }
 }
+
+// Todo lo de la libreria java.lang no es necesario importarlo, ya se incluye.
+
+// las wildcards (*) son solo para importar clases, no paquetes.
+
+// Si tienes metodos con el mismo nombre en diferentes paquetes y necesitas
+// utilizarlos ambos, debes usar toda la ruta al crearlo.
