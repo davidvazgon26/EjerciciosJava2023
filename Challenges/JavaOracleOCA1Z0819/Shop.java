@@ -12,6 +12,8 @@ public class Shop {
     private static void Example(String... args) {
         System.out.println(args[0] + " " + args[1]);
     }
+
+    public String name;
 }
 
 /**
