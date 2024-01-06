@@ -14,7 +14,7 @@ public class metodosString {
         System.out.println(text.indexOf("a")); // 1
         System.out.println(text.substring(3)); // id Vaz
         System.out.println(text.substring(0, 3)); // Dav
-        System.out.println(text.equalsIgnoreCase("David Vaz")); // Dav
+        System.out.println(text.equalsIgnoreCase("David Vaz")); // true
 
     }
 }
