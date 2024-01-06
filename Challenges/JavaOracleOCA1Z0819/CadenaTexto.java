@@ -7,5 +7,11 @@ public class CadenaTexto {
             text += character;
         }
         System.out.println(text);
+
+        StringBuilder cadena = new StringBuilder();
+        for (char character = 'a'; character <= 'z'; character++) {
+            cadena.append(character);
+        }
+        System.out.println(cadena);
     }
 }
