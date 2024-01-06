@@ -19,6 +19,10 @@ public class Comparaciones {
 
         System.out.println("Los objetos son iguales? " + (z == y)); // Con el constructor daria falso
         System.out.println("Comparando objetos, es: " + (z.equals(y)));
+
+        System.out.println("**********************************");
+
+        System.out.println();
     }
 
 }
