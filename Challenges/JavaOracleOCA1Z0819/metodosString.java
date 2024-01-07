@@ -1,6 +1,6 @@
 package Challenges.JavaOracleOCA1Z0819;
 
-public class metodosString {
+public class MetodosString {
     public static void main(String[] args) {
         String text = "David Vaz";
         System.out.println(text.charAt(2)); // v
