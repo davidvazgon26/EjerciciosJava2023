@@ -12,5 +12,9 @@ public class LambdaEnJava {
         people.add("Gabriel");
 
         people.forEach(el -> System.out.println(el));
+
+        people.removeIf(name -> name.startsWith("G"));
+
+        System.out.println(people);
     }
 }
