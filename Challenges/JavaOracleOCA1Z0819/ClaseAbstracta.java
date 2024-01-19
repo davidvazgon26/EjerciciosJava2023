@@ -31,10 +31,21 @@ class Heradada extends ClaseAbstracta {
 
     public abstract class Animal { // La clase abstracta no lleva parentesis
         abstract void eat();
+
+        String name;
     }
 
     abstract class Dog extends Animal {
         abstract void sleep();
+
+        String name;
+
+        public Dog() {
+            name = "Dog";
+            super.name = "Animal";
+            System.out.println(name);
+            System.out.println(super.name);
+        }
     }
 
     class Pitbull extends Dog {
