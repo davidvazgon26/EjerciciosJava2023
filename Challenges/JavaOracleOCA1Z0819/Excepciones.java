@@ -9,8 +9,10 @@ public class Excepciones {
 
     public static void doSomething() {
         throw new NullPointerException();
-        throw new StackOverflowError();
-        throw new Exception();
-        throw new SQLException();
+        // Los comento ya que despues de un throw o exception el resto del codigo se
+        // vuelve inalcanzable.
+        // throw new StackOverflowError();
+        // throw new Exception();
+        // throw new SQLException();
     }
 }
